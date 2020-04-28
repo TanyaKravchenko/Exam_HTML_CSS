@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    position: relative;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+#menu__toggle {
+    opacity: 0;
+}
+
+.container {
+	width: 80%;
+	max-width: 1280px;
+	margin: 0 auto;
+    padding: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-header {
+    padding-top: 25px;
+    background-color: #eeeeee;
+    margin-bottom: 80px;
+}
+
+.nerds-logo {
+    display: block;
+    float: left;
+    width: 139px;
+    height: 56px;
+    margin-right: 80px;
+}
+
+.main-navigation {
+    float: left;
+    width: 800px;
+}
+  
+.main-navigation ul,
+.basket {
+    display: block;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 0px;
+    width: 560px;
+    text-align: right;
+  
+}
+.main-navigation li {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: 45px;
+}
+  
+.main-navigation a,
+.basket a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+  
+.main-navigation a:hover,
+.basket a:hover {
+    color: #fb565a;
+}
+  
+.basket {
+    width: 100px;
+    float: right;
+    position: relative;
+}
+.basket a {
+    text-align: right;
+}
+.basket::before {
+    content: "";
+    position: absolute;
+    top: 32px;
+    left: 5px;
+    width: 15px;
+    height: 15px;
+    background-position: 0px 0px;
+    background-image: url("../images/cart-icon.png");
+}
+
+.slider-left {
+    width: 480px;
+    float: left;  
+}
+  
+.slider-right {
+    width: 400px;
+    height: 320px;
+    float: right;
+    text-align: right;
+    padding-right: 270px;
+    position: relative;
+}
+
+.slider-right img {
+    width: 640px;
+    height: 320px;
+}
+
+.site h1 {
+    margin-top: 42px;
+    margin-bottom: 18px;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 500;
+}
+
+.site h2 {
+    margin-top: 42px;
+    margin-bottom: 18px;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+.site h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+  
+.site p {
+    margin: 22px 0;
+    font-weight: 500;
+    line-height: 22px;
+    font-size: 15px;
+    color: #444444;
+}
+
+.slider-controller {
+    display: inline-block;
+    position: absolute;
+    padding-top: 250px; 
+    margin-left: 60px;  
+}
+
+.button {
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 16px;
+    padding: 10px 70px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    vertical-align: top;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.red {
+    background-color: #fb565a;
+}
+.red:hover {
+    background-color: #d6494d;
+}
+.green {
+    background-color: #00ca74;
+}
+.green:hover {
+    background-color: #01a25e;
+}
+.yellow {
+    background-color: #efc84a;
+}
+.yellow:hover {
+    background-color: #d6ae2c;
+}
+ 
+.work {
+    margin-bottom: 140px;
+    position: relative;
+}
+
+.button {
+    padding: 10px 40px;
+}
+  
+.item {
+    float: left;
+    width: 240px;
+    margin-right: 150px;
+}
+  
+.item:last-child {
+    margin-right: 0px;
+}
+
+.work::before {
+    content: "";
+    display: block;
+    border-bottom: 2px solid #eeeeee;
+    position: absolute;
+    top: 380px;
+    left: 0px;
+    width: 1280px;
+}
+
+.promo-left {
+    width: 620px;
+    float: left;
+}
+
+.promo-right {
+    width: 440px;
+    float: right;
+    margin-top: -30px;
+}
+
+.promo h2 {
+    margin-top: 10px;
+}
+
+.promo-right .textwrapper {
+    text-transform: uppercase;
+    text-align: right;
+    margin-right: 20px;
+}
+  
+.promo-logo-container {
+    text-align: right; 
+}
+
+.wrapper2 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-left: 110px;
+    justify-content: space-between;
+    width: 310px;
+}
+
+.promo2 {
+    margin-top: 60px;
+}
+
+.promo2 ul {
+    margin: 0px;
+    margin-top: 25px;
+    padding: 0px;
+    list-style: none;
+}
+  
+.promo2 h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.promo2 li {
+    margin-top: 22px;
+    padding-left: 37px;
+    background: #fff;
+    position: relative;
+}
+
+.promo2 li::before {
+    content: "";
+    display: block;
+    border-bottom: 2px solid #fb565a;
+    position: absolute;
+    top: 9px;
+    left: 0px;
+    width: 25px;
+}
+
+.partners-logos {
+    margin-top: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 2px solid #eeeeee;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.partners-logo {
+    border-right: 2px solid #eeeeee;
+    height: 70px;
+    width: 200px;
+    margin-right: 80px;
+    padding-right: 70px;
+}
+
+.partners-logo:last-child {
+    float: right;
+    margin-right: 0;
+    padding-right:0;
+    border-right: 0;
+}
+
+.feedback {
+    height: 420px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 80px;
+}
+
+.contacts {
+    position: absolute;
+    background: #FFF;
+    width: 230px;
+    height: 240px;
+    top: 70px;
+    left: 450px;
+    padding-left: 50px;
+}
+
+.contacts-header {
+    margin: 0px;
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.contacts p {
+    margin-top: 12px;
+    margin-bottom: 18px;
+}
+
+.map-marker {
+    position: absolute;
+    top: 50px;
+    right: 650px;
+}
+
+.left-footer {
+    float: left;
+    width: 340px;
+    margin-left: 100px;
+}
+
+.round {
+    float: left;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background-color: #eeeeee;
+    margin-right: 26px;
+    position: relative;
+}
+.round:hover {
+    background-color: #fb565a;
+}
+
+.vk {
+    position: absolute;
+    top: 25px;
+    left: 17px;
+}
+
+.fb {
+    position: absolute;
+    top: 20px;
+    left: 24px;
+}
+
+.insta {
+    position: absolute;
+    top: 20px;
+    left: 21px;
+}

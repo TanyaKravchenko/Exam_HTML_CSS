@@ -1,0 +1,299 @@
+@media (max-width: 1440px) {
+    .slider-right {
+        padding-right: 240px; 
+    }
+
+    .partners-logo {
+        margin-right: 30px;
+        padding-right: 70px;
+    }
+
+    .contacts {
+        left: 250px;
+        top: 50px;
+    }
+
+    .map-marker {
+        right: 450px;
+    }
+
+    .feedback {
+        height: 350px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .slider-left {
+        width: 400px; 
+    }
+
+    .slider-right {
+        padding-right: 200px; 
+    }
+
+    .partners-logo {
+        margin-right: 40px;
+        padding-right: 45px;
+    }
+
+    .map-marker {
+        right: 380px;
+        top: 30px;
+    }
+
+    .feedback {
+        height: 320px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .promo-left {
+        width: 600px;
+        margin-top: -20px;
+    }
+    
+    .promo-right {
+        width: 330px;
+        margin-top: -50px;
+    }
+
+    .work::before {
+        width: 1050px;
+    }
+
+    .wrapper2 {
+        margin-left: 0px;
+    }
+
+    .partners-logo {
+        margin-right: 30px;
+        padding-right: 40px;
+    }
+
+    .contacts {
+        left: 250px;
+        top: 30px;
+    }
+    
+}
+
+@media (max-width: 1280px) {
+    .slider-right {
+        padding-right: 150px;   
+    }
+
+    .promo-left {
+        width: 530px;
+        margin-top: -20px;
+    }
+    
+    .promo-right {
+        width: 330px;
+        margin-top: -50px;
+    }
+
+    .partners-logo {
+        margin-right: 30px;
+        padding-right: 40px;
+    }
+
+    .contacts {
+        top: 30px;
+    }
+
+    .map-marker {
+        right: 380px;
+        top: 30px;
+    }   
+}
+
+@media (max-width: 1024px) {
+
+.menu__btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+}
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+}
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+}
+
+.main-navigation {
+    width: 400px;
+}
+  
+.main-navigation ul {
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 200px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    text-align: center;
+    background-color: #ECEFF1;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+
+  .menu_item {
+    padding: 12px 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+  .menu__item:hover {
+    background-color: #CFD8DC;
+}
+  
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+}
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+}
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+}
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    transition-duration: .25s;
+}
+  .menu__box {
+    transition-duration: .25s;
+}
+  .menu__item {
+    transition-duration: .25s;
+}
+
+  .slider-right {      
+    width: 200px;
+}
+
+  .slider-right img {      
+    width: 500px;
+    height: 315px;
+    margin-left: -130px;
+}
+  .slider-controller {
+    padding-top: 250px; 
+    margin-left: 10px;  
+}
+
+.item img {
+    width: 250px;
+}
+
+.item {
+    width: 200px;
+    margin-right: 80px;
+}
+
+.promo-right {
+    width: 330px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 500px;
+}
+
+.promo-logo {
+    width: 300px;
+    height: 200px;
+}
+
+.work::before {
+    width: 800px;
+}
+
+.partners-logo {
+    width: 150px;
+    height: 50px;
+    margin-right: 30px;
+    padding-right: 35px;
+}
+
+.contacts {
+    width: 200px;
+    height: 220px;
+    top: 10px;
+    left: 250px;
+    padding-left: 25px;
+}
+
+.contacts-header {
+    margin: 0px;
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.map-marker {
+    right: 330px;
+    top: 30px;
+} 
+
+.map-marker img{
+    width: 150px;
+    height: 130px;
+} 
+
+.feedback {
+    height: 250px;
+}
+
+.left-footer {
+    width: 270px;
+    margin-left: 40px;
+}
+
+.right-footer h2 {
+    font-size: 22px;
+    padding-bottom: 5px;
+    line-height: 12px;
+}
+
+.right-footer p {
+    line-height: 14px;
+    margin-top: 5px;
+}
+
+}
+
+@media (max-width: 768px) {
+  
+}
+
+@media (max-width: 425px) {
+    
+
+}
+
+
