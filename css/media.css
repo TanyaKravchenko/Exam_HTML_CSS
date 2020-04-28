@@ -288,7 +288,135 @@
 }
 
 @media (max-width: 768px) {
-  
+    .slider-left {      
+        width: 610px;
+    }
+
+    .slider-left  h1{      
+        font-size: 44px;
+        text-align: center;
+    }
+
+    .slider-left  p{      
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .slider-left .button{        
+       margin-left: 250px;
+    }
+    
+    .slider-right img {      
+        width: 600px;
+        height: 300px;
+        margin-left: -250px;
+    }
+
+      .slider-controller {
+        position: absolute;
+        padding-top: 500px; 
+        margin-left: -340px;  
+    }
+    
+    .item img {
+        width: 200px;
+    }
+    
+    .item {
+        width: 200px;
+        margin-right: 5px;
+    }
+
+    .promo-left {
+        width: 614px;
+
+    }
+    
+    .promo-right {
+        width: 614px;
+        position: relative;
+        margin-bottom: 90px;
+    }
+    
+    .promo-logo {
+        width: 300px;
+        height: 200px;
+        margin-left: 50px;
+        margin-top: -150px;
+        opacity: 0.3;
+    }
+
+    .wrapper2 { 
+        margin-left: 290px;
+    }
+    
+    .work::before {
+        width: 614px;
+    }
+    
+    .partners-logo {
+        width: 100px;
+        height: 50px;
+        margin-right: 30px;
+        padding-right: 35px;
+    }
+    
+    .contacts {
+        width: 170px;
+        height: 190px;
+        top: 5px;
+        left: 120px;
+        padding-left: 15px;
+        padding-bottom: 10px;
+    }
+
+    .contacts p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .contacts .button {
+        padding: 10px;
+        margin-left: 20px;
+    }
+    .contacts-header {
+        margin: 0px;
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+    
+    .map-marker {
+        right: 230px;
+        top: 20px;
+    } 
+    
+    .map-marker img{
+        width: 150px;
+        height: 130px;
+    } 
+    
+    .feedback {
+        height: 200px;
+        margin-top: 30px;
+    }
+    
+    .left-footer {
+        width: 270px;
+        margin-left: 40px;
+    }
+    
+    .right-footer h2 {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    
+    .right-footer p {
+        font-size: 14px;
+        margin-top: 5px;
+        text-align: center;
+    }
 }
 
 @media (max-width: 425px) {
